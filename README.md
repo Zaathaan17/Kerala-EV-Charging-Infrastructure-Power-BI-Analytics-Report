@@ -6,13 +6,13 @@ An interactive **Power BI dashboard** designed to analyze Kerala's EV charging i
 
 ## 📊 Dashboard Overview
 
-The dashboard consists of five analytical pages covering the overall state-level ecosystem, district performance, charging network composition, utilization and demand, and strategic infrastructure insights.
+The dashboard provides an interactive analysis of Kerala's EV charging ecosystem through multiple pages covering state-level performance, district analysis, charging network composition, utilization and demand, and strategic insights.
 
 ---
 
 ## 📍 Page 1: State Overview
 
-![State Overview](Screenshots/state-overview.png)
+![State Overview](Screenshot%202026-09-09%20185732.png)
 
 * **Total Charging Stations:** 2,000
 * **Total Charging Points:** 7,219
@@ -20,72 +20,98 @@ The dashboard consists of five analytical pages covering the overall state-level
 * **Total Daily Charging Sessions:** 48,948
 * **Average Network Utilization:** 64.17%
 * **Average Charging Power:** 43.94 kW
-* **District Coverage:** All 14 districts of Kerala
 
-The State Overview provides a high-level picture of Kerala's EV charging ecosystem. It highlights infrastructure distribution, station status, site types, and district-level station availability.
+This page provides a high-level overview of Kerala's EV charging ecosystem, including station distribution, station status, site types, energy consumption, and district-level infrastructure.
 
 ---
 
 ## 🗺️ Page 2: District Analysis
 
-![District Analysis](Screenshots/district-analysis.png)
+![District Analysis](Screenshot%202026-09-09%20185800.png)
 
+* **Total Stations:** 2,000
+* **Total Charging Points:** 7,219
+* **Total Daily Sessions:** 48,948
+* **Average Utilization:** 64.17%
 * **Highest Number of Stations:** Ernakulam – 236
 * **Highest Charging Points:** Ernakulam – 850
-* **Highest Daily Sessions:** Ernakulam – 5,667
-* **Highest Daily Energy:** Ernakulam – approximately 0.25M kWh
-* **Network Average Utilization:** 64.17%
-* District-level utilization varies across the 14 districts.
 
-This page compares Kerala's districts based on charging infrastructure, charging capacity, daily demand, energy consumption, and utilization.
+This page compares the EV charging infrastructure across Kerala's 14 districts, focusing on station availability, charging capacity, daily sessions, utilization, and energy consumption.
 
 ---
 
 ## 🔌 Page 3: Charging Network
 
-![Charging Network](Screenshots/charging-network.png)
+![Charging Network](Screenshot%202026-09-09%20185826.png)
 
 * **Total Charging Points:** 7,219
 * **DC Charging Points:** 3K+
 * **AC Charging Points:** 3K+
 * **Maximum Charging Power:** 240 kW
 * **Largest Charger Category:** DC Fast CCS2
-* Charger technologies include **AC 7.4kW, AC Type 2, DC Fast CCS2, DC Fast CHAdeMO, and DC Ultra Fast CCS2**.
-* Charging network growth is analyzed by station opening year.
+* Includes AC 7.4kW, AC Type 2, DC Fast CCS2, DC Fast CHAdeMO and DC Ultra Fast CCS2 technologies.
 
-This page focuses on the technological structure of Kerala's EV charging network, including charger types, connectors, power capacity, and infrastructure growth.
+This page examines the composition of Kerala's charging network, including charger technologies, connector types, charging capacity, and network growth over time.
 
 ---
 
 ## 📈 Page 4: Utilization & Demand
 
-![Utilization and Demand](Screenshots/utilization-demand.png)
+![Utilization and Demand](Screenshot%202026-09-09%20185858.png)
 
 * **Average Daily Sessions per Station:** 24.47
 * **Average Daily Energy:** 1,069 kWh
 * **Average Network Utilization:** 64.17%
 * **Total Daily Sessions:** 48.9K
-* High-demand stations record more than **100 daily charging sessions**.
-* Utilization is compared across **Rural, Semi-Urban, Suburban, and Urban** areas.
-* Utilization trends are analyzed based on station opening year.
+* High-demand charging stations are identified based on daily sessions and energy consumption.
+* Utilization is compared across Rural, Semi-Urban, Suburban and Urban areas.
 
-This page focuses on how actively Kerala's charging infrastructure is being used and where charging demand is concentrated.
+This page focuses on charging demand and infrastructure utilization, helping identify how actively the charging network is being used across different locations.
 
 ---
 
 ## 🎯 Page 5: Strategic Insights
 
-![Strategic Insights](Screenshots/strategic-insights.png)
+![Strategic Insights](Screenshot%202026-09-09%20185919.png)
 
 * **Total Stations:** 2,000
 * **Total Charging Points:** 7,219
 * **Total Daily Sessions:** 48,948
 * **Average Utilization:** 64.17%
 * **Total Daily Energy:** 2.14M kWh
-* District-level performance can be compared using infrastructure, demand, energy, and utilization indicators.
-* The analysis helps identify differences in charging infrastructure and utilization across districts.
 
-The Strategic Insights page consolidates the major indicators into a district-level performance view, helping identify demand patterns, utilization differences, and potential areas for future infrastructure planning.
+This page brings together the major infrastructure and utilization indicators to provide a consolidated district-level performance analysis.
+
+---
+
+## 🖼️ Additional Dashboard Views
+
+### Dashboard Introduction
+
+![Dashboard Introduction](Screenshot%202026-09-09%20190005.png)
+
+The dashboard introduction presents the overall purpose of the project and provides navigation to the different analytical sections.
+
+### Dashboard Navigation / Additional View
+
+![Dashboard View](Screenshot%202026-09-10%20230908.png)
+
+Additional dashboard view showcasing the interactive Power BI interface and analytical navigation.
+
+---
+
+## 🔍 Key Insights
+
+* **Ernakulam** has the highest number of charging stations with **236 stations**.
+* Ernakulam also records the highest charging capacity with **850 charging points**.
+* The network contains **7,219 charging points** across Kerala.
+* The estimated network average utilization is **64.17%**.
+* The network records approximately **48,948 daily charging sessions**.
+* Estimated daily energy consumption is approximately **2.14 million kWh**.
+* **DC Fast CCS2** represents the largest charging technology category.
+* Charging utilization is analyzed across **Rural, Semi-Urban, Suburban and Urban** areas.
+* Charging infrastructure growth is analyzed based on the **opening year** of charging stations.
+* District-level analysis highlights differences in infrastructure availability, utilization and charging demand.
 
 ---
 
@@ -96,23 +122,25 @@ The Strategic Insights page consolidates the major indicators into a district-le
 * **Data Analysis:** DAX
 * **Data Preparation:** Microsoft Excel
 * **Data Modeling:** Power BI
-* **Visualization:** KPI Cards, Bar Charts, Donut Charts, Line Charts, Tables, Treemaps, Slicers & Conditional Formatting
+* **Visualization:** KPI Cards, Bar Charts, Donut Charts, Line Charts, Tables, Treemaps, Slicers and Conditional Formatting
 
 ---
 
 ## 🎯 Project Objective
 
-The objective of this project is to analyze Kerala's EV charging ecosystem and transform charging infrastructure data into meaningful, interactive insights.
+The objective of this project is to transform EV charging infrastructure data into an interactive analytical dashboard that provides a clear understanding of Kerala's EV charging ecosystem.
 
-The dashboard helps understand:
+The dashboard helps analyze:
 
-* Where charging infrastructure is concentrated
-* How charging stations are being utilized
-* Which charger technologies are being deployed
-* How charging demand varies between districts
-* How the charging network has grown over time
-* How utilization differs across different area types
-* Where potential infrastructure gaps and expansion opportunities may exist
+* Charging infrastructure distribution
+* District-level charging capacity
+* Charging demand and utilization
+* AC and DC charger deployment
+* Charger technology distribution
+* Energy consumption
+* Network growth over time
+* Area-wise utilization patterns
+* Potential infrastructure gaps and expansion opportunities
 
 ---
 
