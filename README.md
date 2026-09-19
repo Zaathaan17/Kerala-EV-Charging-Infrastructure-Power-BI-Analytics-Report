@@ -1,150 +1,256 @@
-# ⚡ Kerala EV Charging Infrastructure Dashboard
+# ⚡ Kerala EV Charging Infrastructure Analytics Dashboard
 
-An interactive **Power BI dashboard** designed to analyze Kerala's EV charging infrastructure across all 14 districts, providing insights into charging capacity, network distribution, utilization, demand, energy consumption, and infrastructure growth.
+An interactive **Power BI data analytics project** developed to analyze Kerala's Electric Vehicle (EV) charging infrastructure across all 14 districts.
 
----
+The dashboard provides a comprehensive view of the state's charging ecosystem by examining **charging station distribution, charging capacity, charger technology, network growth, charging demand, energy consumption, utilization patterns, and district-level performance**.
 
-## 📊 Dashboard Overview
-
-The dashboard provides an interactive analysis of Kerala's EV charging ecosystem through multiple pages covering state-level performance, district analysis, charging network composition, utilization and demand, and strategic insights.
+The project is designed as an end-to-end data visualization and analytics solution, where raw EV charging infrastructure data is transformed using **Power Query and DAX** and presented through an interactive multi-page Power BI dashboard.
 
 ---
 
-## 📍 Page 1: State Overview
+# 📊 Dashboard Overview
 
-![State Overview](Screenshot%202026-09-09%20185732.png)
-
-* **Total Charging Stations:** 2,000
-* **Total Charging Points:** 7,219
-* **Total Daily Energy:** 2.14M kWh
-* **Total Daily Charging Sessions:** 48,948
-* **Average Network Utilization:** 64.17%
-* **Average Charging Power:** 43.94 kW
-
-This page provides a high-level overview of Kerala's EV charging ecosystem, including station distribution, station status, site types, energy consumption, and district-level infrastructure.
+The dashboard is organized into six main pages. Each page focuses on a different layer of the EV charging ecosystem, beginning with the overall dashboard navigation and gradually moving into state-level, district-level, network, utilization, and strategic analysis.
 
 ---
 
-## 🗺️ Page 2: District Analysis
+## 🏠 Page 1: Dashboard Navigation
 
-![District Analysis](Screenshot%202026-09-09%20185800.png)
+![Dashboard Navigation](Screenshot%202026-09-09%20185732.png)
 
-* **Total Stations:** 2,000
-* **Total Charging Points:** 7,219
-* **Total Daily Sessions:** 48,948
-* **Average Utilization:** 64.17%
-* **Highest Number of Stations:** Ernakulam – 236
-* **Highest Charging Points:** Ernakulam – 850
+The first page serves as the **landing page and navigation interface** for the entire dashboard. The theme, *"Driving a Cleaner Kerala"*, represents the project's focus on understanding the development of EV charging infrastructure and its role in supporting a cleaner transportation ecosystem.
 
-This page compares the EV charging infrastructure across Kerala's 14 districts, focusing on station availability, charging capacity, daily sessions, utilization, and energy consumption.
+The page provides an overview of the analytical structure of the project and allows users to navigate between the different sections of the dashboard. The main analytical areas include **State Overview, District Analysis, Charging Network, Utilization & Demand, and Strategic Insights**.
+
+The navigation structure is designed to allow users to move from a broad understanding of Kerala's EV infrastructure into progressively deeper levels of analysis. This creates a logical flow from **overall infrastructure → district distribution → charging technology → utilization and demand → strategic comparison**.
 
 ---
 
-## 🔌 Page 3: Charging Network
+# 🌴 Page 2: State Overview
 
-![Charging Network](Screenshot%202026-09-09%20185826.png)
+![State Overview](Screenshot%202026-09-09%20185800.png)
 
-* **Total Charging Points:** 7,219
-* **DC Charging Points:** 3K+
-* **AC Charging Points:** 3K+
-* **Maximum Charging Power:** 240 kW
-* **Largest Charger Category:** DC Fast CCS2
-* Includes AC 7.4kW, AC Type 2, DC Fast CCS2, DC Fast CHAdeMO and DC Ultra Fast CCS2 technologies.
+The **State Overview** page provides a consolidated view of Kerala's EV charging infrastructure. It acts as the starting point for understanding the overall scale and current structure of the charging network before examining individual districts.
 
-This page examines the composition of Kerala's charging network, including charger technologies, connector types, charging capacity, and network growth over time.
+The top KPI section summarizes the major network indicators, including **2,000 total charging stations, 7,219 charging points, 48,948 estimated daily charging sessions, 2.14 million kWh of estimated daily energy consumption, 64.17% average network utilization, and 43.94 kW average power**.
 
----
+The page also examines how charging stations are distributed across districts and different site types. The station-status visualization provides an overview of operational and non-operational infrastructure, while the site-type analysis highlights the locations where charging stations are being deployed, such as highway hubs, fuel stations, shopping malls, KSEB facilities, parking facilities, automobile dealers, hotels, residential areas, and hospitals.
 
-## 📈 Page 4: Utilization & Demand
-
-![Utilization and Demand](Screenshot%202026-09-09%20185858.png)
-
-* **Average Daily Sessions per Station:** 24.47
-* **Average Daily Energy:** 1,069 kWh
-* **Average Network Utilization:** 64.17%
-* **Total Daily Sessions:** 48.9K
-* High-demand charging stations are identified based on daily sessions and energy consumption.
-* Utilization is compared across Rural, Semi-Urban, Suburban and Urban areas.
-
-This page focuses on charging demand and infrastructure utilization, helping identify how actively the charging network is being used across different locations.
+Interactive filters for **District, Operator, Opening Year, Area Type, and Station Status** allow users to dynamically explore the state-level dataset and understand how different selections affect the dashboard's analysis.
 
 ---
 
-## 🎯 Page 5: Strategic Insights
+# 📍 Page 3: District Analysis
 
-![Strategic Insights](Screenshot%202026-09-09%20185919.png)
+![District Analysis](Screenshot%202026-09-09%20185826.png)
 
-* **Total Stations:** 2,000
-* **Total Charging Points:** 7,219
-* **Total Daily Sessions:** 48,948
-* **Average Utilization:** 64.17%
-* **Total Daily Energy:** 2.14M kWh
+The **District Analysis** page moves from the state-level view to a more detailed comparison of Kerala's **14 districts**.
 
-This page brings together the major infrastructure and utilization indicators to provide a consolidated district-level performance analysis.
+The page compares districts using several important indicators, including **total charging stations, total charging ports, daily charging sessions, average utilization, and daily charging energy**. This makes it possible to understand not only where charging infrastructure is located, but also how intensively that infrastructure is being used.
 
----
+The district comparison shows that **Ernakulam has 236 charging stations and 850 charging points**, while Thiruvananthapuram and Thrissur also have relatively large charging networks. At the same time, districts with fewer stations can be examined to understand differences in charging capacity and utilization.
 
-## 🖼️ Additional Dashboard Views
+The page contains multiple visual perspectives. The **Average Utilization by District** chart compares network usage levels, while the **Charging Ports by District** chart highlights differences in charging capacity. Additional charts show station counts and daily energy consumption by district.
 
-### Dashboard Introduction
-
-![Dashboard Introduction](Screenshot%202026-09-09%20190005.png)
-
-The dashboard introduction presents the overall purpose of the project and provides navigation to the different analytical sections.
-
-### Dashboard Navigation / Additional View
-
-![Dashboard View](Screenshot%202026-09-10%20230908.png)
-
-Additional dashboard view showcasing the interactive Power BI interface and analytical navigation.
+A district slicer allows users to select individual districts and investigate their infrastructure characteristics more closely. This makes the page useful for understanding regional differences within Kerala's EV charging ecosystem.
 
 ---
 
-## 🔍 Key Insights
+# 🔌 Page 4: Charging Network
 
-* **Ernakulam** has the highest number of charging stations with **236 stations**.
-* Ernakulam also records the highest charging capacity with **850 charging points**.
-* The network contains **7,219 charging points** across Kerala.
-* The estimated network average utilization is **64.17%**.
-* The network records approximately **48,948 daily charging sessions**.
-* Estimated daily energy consumption is approximately **2.14 million kWh**.
-* **DC Fast CCS2** represents the largest charging technology category.
-* Charging utilization is analyzed across **Rural, Semi-Urban, Suburban and Urban** areas.
-* Charging infrastructure growth is analyzed based on the **opening year** of charging stations.
-* District-level analysis highlights differences in infrastructure availability, utilization and charging demand.
+![Charging Network](Screenshot%202026-09-09%20185858.png)
 
----
+The **Charging Network** page focuses on the technical structure of Kerala's EV charging infrastructure. Instead of looking only at the number of stations, this page examines **what types of charging equipment make up the network**.
 
-## 🛠️ Tools & Technologies Used
+The KPI section provides an overview of the total charging points, AC and DC charging capacity, and maximum charging power. The dashboard contains approximately **7,219 charging points**, with both AC and DC charging technologies represented across the network.
 
-* **Business Intelligence:** Microsoft Power BI Desktop
-* **Data Transformation:** Power Query
-* **Data Analysis:** DAX
-* **Data Preparation:** Microsoft Excel
-* **Data Modeling:** Power BI
-* **Visualization:** KPI Cards, Bar Charts, Donut Charts, Line Charts, Tables, Treemaps, Slicers and Conditional Formatting
+The **Charger and Connector Breakdown** provides a detailed comparison of technologies such as **AC 7.4kW, AC Type 2, DC Fast CCS2, and DC Fast CHAdeMO**. This helps illustrate the different charging technologies available within the analyzed network.
+
+The **Charger Technology Mix by District** visualization compares the technology composition between districts, showing how the charging infrastructure is distributed across different charger categories.
+
+The **Charging Network Growth by Year** chart analyzes the number of charging points associated with different station opening years. This provides a historical perspective on how the charging network has developed over time.
+
+A treemap showing **Total Charging Points by Charger Type** provides another way of understanding the relative contribution of each charger category to the overall network.
 
 ---
 
-## 🎯 Project Objective
+# 📈 Page 5: Utilization & Demand
 
-The objective of this project is to transform EV charging infrastructure data into an interactive analytical dashboard that provides a clear understanding of Kerala's EV charging ecosystem.
+![Utilization & Demand](Screenshot%202026-09-09%20185919.png)
 
-The dashboard helps analyze:
+The **Utilization & Demand** page shifts the analysis from infrastructure availability to **actual usage and charging demand**.
 
-* Charging infrastructure distribution
-* District-level charging capacity
-* Charging demand and utilization
-* AC and DC charger deployment
-* Charger technology distribution
-* Energy consumption
-* Network growth over time
-* Area-wise utilization patterns
-* Potential infrastructure gaps and expansion opportunities
+The KPI section highlights four important indicators: **24.47 average daily sessions per station, 1,069 kWh average daily energy, 64.17% average network utilization, and approximately 49K total daily sessions**.
+
+The **Top Charging Stations by Daily Demand** table identifies stations with high estimated daily charging activity. It compares individual stations using metrics such as estimated daily sessions, average utilization percentage, and estimated daily energy consumption.
+
+The **Overall Network Utilization** gauge provides a simplified view of the network-wide utilization level, while the **District Utilization by Area Type** table compares utilization across Rural, Semi-Urban, Suburban, and Urban locations.
+
+The **Utilization Trend by Opening Year** visual examines how average utilization varies according to the year in which charging infrastructure was introduced. Together, these visuals provide a broader understanding of charging demand and how infrastructure usage differs by location and station characteristics.
 
 ---
 
-## 🚀 Getting Started
+# 🎯 Page 6: Strategic Insights
+
+![Strategic Insights](Screenshot%202026-09-09%20190005.png)
+
+The **Strategic Insights** page brings the major infrastructure and utilization metrics together into a consolidated district-level analysis.
+
+The main table compares all 14 districts using five key indicators: **Total Stations, Total Charging Points, Total Daily Sessions, Average Utilization, and Total Daily Energy Consumption**.
+
+This allows users to compare districts from multiple perspectives rather than relying on a single metric. For example, a district may have a large number of charging stations but a different utilization profile, while another district may have fewer stations but relatively strong charging activity.
+
+The page is therefore designed to support **comparative analysis and infrastructure planning discussions**. It helps identify differences in charging capacity, demand, energy consumption, and utilization across Kerala and provides a final analytical view of the overall charging network.
+
+Rather than focusing on a single "best" district, the page allows users to examine the different dimensions of network performance and understand where infrastructure characteristics and usage patterns differ.
+
+---
+
+# 📌 Key Project Metrics
+
+The analyzed dataset provides the following major network-level indicators:
+
+| Metric | Value |
+|---|---:|
+| Districts Covered | 14 |
+| Total Charging Stations | 2,000 |
+| Total Charging Points | 7,219 |
+| Estimated Daily Charging Sessions | 48,948 |
+| Average Network Utilization | 64.17% |
+| Estimated Daily Energy | 2.14M kWh |
+| Average Charging Power | 43.94 kW |
+| Maximum Charging Power | 240 kW |
+
+---
+
+# 🔍 Key Analytical Areas
+
+The dashboard analyzes the EV charging ecosystem from several different perspectives:
+
+### 🏢 Infrastructure Distribution
+Analysis of the number of charging stations and charging points available across Kerala's districts.
+
+### ⚡ Charging Capacity
+Comparison of charging-point availability and AC/DC infrastructure across different locations.
+
+### 🔌 Charger Technology
+Analysis of charger categories and connector technologies, including AC and DC charging systems.
+
+### 📈 Network Growth
+Analysis of charging infrastructure according to station opening year to understand network development over time.
+
+### 🚗 Charging Demand
+Analysis of estimated daily charging sessions and identification of stations with higher charging activity.
+
+### 🔋 Energy Consumption
+Comparison of estimated daily energy consumption across districts and charging stations.
+
+### 📊 Network Utilization
+Measurement and comparison of average utilization across districts and different area types.
+
+### 🗺️ Area-wise Analysis
+Comparison of charging utilization across **Rural, Semi-Urban, Suburban, and Urban** locations.
+
+### 🏪 Site-Type Analysis
+Analysis of charging station deployment across locations such as highway hubs, fuel stations, shopping malls, KSEB facilities, parking areas, automobile dealers, hotels, residential areas, and hospitals.
+
+### 🏷️ Station Status
+Analysis of station operational status, including operational, temporarily offline, and maintenance categories.
+
+---
+
+# 🧮 DAX & Analytical Measures
+
+The dashboard uses DAX measures to dynamically calculate and display important performance indicators.
+
+Examples include:
+
+* Total Charging Stations
+* Total Charging Points
+* Total Daily Sessions
+* Total Daily Energy
+* Average Network Utilization
+* Average Charging Power
+* Average Daily Sessions per Station
+* District-level utilization
+* District-level energy consumption
+* Charging-point distribution
+* Station-level demand indicators
+
+These measures allow the dashboard visuals and KPIs to respond dynamically to slicers and user selections.
+
+---
+
+# 🧹 Data Preparation & Transformation
+
+The dataset was prepared and transformed using **Power Query** before being used for dashboard development.
+
+The data preparation process includes:
+
+* Data type transformation
+* Data cleaning
+* Handling missing or inconsistent values
+* Standardizing categorical fields
+* Preparing district and location dimensions
+* Structuring charger-type information
+* Preparing fields for analytical calculations
+* Creating a model suitable for Power BI visualization
+
+The transformed data was then connected to DAX measures and Power BI visuals to create the final interactive dashboard.
+
+---
+
+# 🛠️ Tools & Technologies
+
+### Microsoft Power BI
+Used to build the interactive dashboard, data model, KPIs, slicers, charts, tables, and analytical pages.
+
+### Power Query
+Used for data cleaning, transformation, restructuring, and preparation.
+
+### DAX
+Used to create calculated measures and dynamic analytical metrics.
+
+### Microsoft Excel
+Used for dataset preparation and initial data handling.
+
+### Data Visualization
+The project uses multiple visual formats including:
+
+* KPI Cards
+* Bar Charts
+* Donut Charts
+* Line Charts
+* Treemaps
+* Tables
+* Gauge Charts
+* Slicers
+* Conditional Formatting
+* Interactive Navigation
+
+---
+
+# 🎯 Project Objective
+
+The primary objective of this project is to create an interactive analytical view of Kerala's EV charging ecosystem and demonstrate how data analytics can be used to understand infrastructure and usage patterns.
+
+The dashboard combines **infrastructure data, technology information, demand indicators, energy consumption, utilization metrics, and geographic distribution** into a single interactive environment.
+
+The project allows users to move from a broad state-level perspective to detailed district and station-level analysis, making it possible to investigate how charging infrastructure is distributed and how usage varies throughout Kerala.
+
+---
+
+# 💡 Analytical Value
+
+The dashboard demonstrates how a large collection of charging infrastructure records can be transformed into a structured analytical story.
+
+Instead of simply displaying the number of charging stations, the project examines the relationship between **infrastructure availability, charging capacity, utilization, demand, energy consumption, technology type, location, and network growth**.
+
+This provides a more complete understanding of the charging ecosystem and demonstrates the application of business intelligence techniques to a real-world sustainability and transportation use case.
+
+---
+
+# 🚀 Getting Started
 
 1. Clone the repository:
 
